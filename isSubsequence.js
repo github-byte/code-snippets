@@ -12,18 +12,3 @@ function isSubsequence(s, t) {
 let s = "abc";
 let t = "ahbgdc"
 console.log(isSubsequence(s, t))
-
-function pascalsTriangle (numRows){
-    let newArr = [];
-    for (let i = 0; i < numRows; i++) {
-        let innerArr = [];
-        let j=0;
-        console.log(i,j)
-        while(j<=i){
-            j++;
-        }
-    }
-    return newArr
-}
-
-pascalsTriangle(5)
